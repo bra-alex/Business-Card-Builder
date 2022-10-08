@@ -16,7 +16,10 @@
 		985CCB282858F079004CF6D6 /* GeneratedTemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985CCB272858F079004CF6D6 /* GeneratedTemplateView.swift */; };
 		985CCB2C2858F20B004CF6D6 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 985CCB2B2858F20B004CF6D6 /* Pacifico-Regular.ttf */; };
 		985CCB3428591B19004CF6D6 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985CCB3328591B19004CF6D6 /* ImagePicker.swift */; };
-		985CCB372859D7C8004CF6D6 /* NavModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985CCB362859D7C8004CF6D6 /* NavModifier.swift */; };
+		98F98D4728F2089B004FDD67 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F98D4628F2089B004FDD67 /* HomeView.swift */; };
+		98F98D4B28F20E12004FDD67 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F98D4A28F20E12004FDD67 /* PickerView.swift */; };
+		98F98D4D28F21948004FDD67 /* InputFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F98D4C28F21948004FDD67 /* InputFields.swift */; };
+		98F98D4F28F22CD4004FDD67 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F98D4E28F22CD4004FDD67 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +34,11 @@
 		985CCB2B2858F20B004CF6D6 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pacifico-Regular.ttf"; path = "../../../businessCard/businessCard/Fonts/Pacifico-Regular.ttf"; sourceTree = "<group>"; };
 		985CCB2F2858F25D004CF6D6 /* Business-Card-Builder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Business-Card-Builder-Info.plist"; sourceTree = SOURCE_ROOT; };
 		985CCB3328591B19004CF6D6 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
-		985CCB362859D7C8004CF6D6 /* NavModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavModifier.swift; sourceTree = "<group>"; };
+		9873EBBA28F68DC800A54B19 /* Business Card Builder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Business Card Builder.entitlements"; sourceTree = "<group>"; };
+		98F98D4628F2089B004FDD67 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		98F98D4A28F20E12004FDD67 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		98F98D4C28F21948004FDD67 /* InputFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputFields.swift; sourceTree = "<group>"; };
+		98F98D4E28F22CD4004FDD67 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +73,7 @@
 		985CCB132858B145004CF6D6 /* Business Card Builder */ = {
 			isa = PBXGroup;
 			children = (
+				9873EBBA28F68DC800A54B19 /* Business Card Builder.entitlements */,
 				985CCB2F2858F25D004CF6D6 /* Business-Card-Builder-Info.plist */,
 				985CCB142858B145004CF6D6 /* Business_Card_BuilderApp.swift */,
 				985CCB222858BC61004CF6D6 /* Views */,
@@ -86,11 +94,14 @@
 		985CCB222858BC61004CF6D6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				98F98D4E28F22CD4004FDD67 /* InfoView.swift */,
 				985CCB162858B145004CF6D6 /* ContentView.swift */,
 				985CCB232858BC7F004CF6D6 /* TemplateView.swift */,
 				985CCB252858C3A0004CF6D6 /* CardCreatorView.swift */,
+				98F98D4C28F21948004FDD67 /* InputFields.swift */,
 				985CCB272858F079004CF6D6 /* GeneratedTemplateView.swift */,
-				985CCB3328591B19004CF6D6 /* ImagePicker.swift */,
+				98F98D4628F2089B004FDD67 /* HomeView.swift */,
+				98F98D4A28F20E12004FDD67 /* PickerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -106,7 +117,7 @@
 		985CCB352859D7AB004CF6D6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				985CCB362859D7C8004CF6D6 /* NavModifier.swift */,
+				985CCB3328591B19004CF6D6 /* ImagePicker.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -184,10 +195,13 @@
 			files = (
 				985CCB172858B145004CF6D6 /* ContentView.swift in Sources */,
 				985CCB262858C3A0004CF6D6 /* CardCreatorView.swift in Sources */,
+				98F98D4D28F21948004FDD67 /* InputFields.swift in Sources */,
 				985CCB152858B145004CF6D6 /* Business_Card_BuilderApp.swift in Sources */,
+				98F98D4F28F22CD4004FDD67 /* InfoView.swift in Sources */,
 				985CCB3428591B19004CF6D6 /* ImagePicker.swift in Sources */,
 				985CCB282858F079004CF6D6 /* GeneratedTemplateView.swift in Sources */,
-				985CCB372859D7C8004CF6D6 /* NavModifier.swift in Sources */,
+				98F98D4728F2089B004FDD67 /* HomeView.swift in Sources */,
+				98F98D4B28F20E12004FDD67 /* PickerView.swift in Sources */,
 				985CCB242858BC7F004CF6D6 /* TemplateView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,6 +328,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Business Card Builder/Business Card Builder.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Business Card Builder/Preview Content\"";
@@ -333,6 +348,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bouncy.Business-Card-Builder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -344,6 +362,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Business Card Builder/Business Card Builder.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Business Card Builder/Preview Content\"";
@@ -363,6 +382,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bouncy.Business-Card-Builder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

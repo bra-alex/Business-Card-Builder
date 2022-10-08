@@ -32,8 +32,8 @@ struct TemplateView: View {
                     .foregroundColor(.white)
                     .font(.system(size: 25))
                 Divider()
-                InfoView(text: "+233 20 983 5922", imageName: "phone.fill")
-                InfoView(text: "aalexanderkwaku@yahoo.co.uk", imageName: "envelope.fill")
+                InfoView(text: "+233 12 345 6789", imageName: "phone.fill")
+                InfoView(text: "example@example.com", imageName: "envelope.fill")
             }
         }
     }
@@ -42,24 +42,5 @@ struct TemplateView: View {
 struct TemplateView_Previews: PreviewProvider {
     static var previews: some View {
         TemplateView()
-    }
-}
-
-struct InfoView: View {
-    let text: String
-    let imageName: String
-    
-    var body: some View {
-        RoundedRectangle(cornerRadius: 30)
-            .fill(Color.white)
-            .frame(height: 50.0)
-            .overlay(
-                HStack {
-                    Image(systemName: imageName)
-                        .foregroundColor(.green)
-                    Text(text)
-                }
-            )
-            .padding(.all)
     }
 }

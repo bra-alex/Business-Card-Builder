@@ -16,7 +16,9 @@
 		985CCB282858F079004CF6D6 /* GeneratedTemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985CCB272858F079004CF6D6 /* GeneratedTemplateView.swift */; };
 		985CCB2C2858F20B004CF6D6 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 985CCB2B2858F20B004CF6D6 /* Pacifico-Regular.ttf */; };
 		985CCB3428591B19004CF6D6 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985CCB3328591B19004CF6D6 /* ImagePicker.swift */; };
+		985CCB372859D7C8004CF6D6 /* NavModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985CCB362859D7C8004CF6D6 /* NavModifier.swift */; };
 		98F98D4728F2089B004FDD67 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F98D4628F2089B004FDD67 /* HomeView.swift */; };
+		98F98D4928F208FB004FDD67 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F98D4828F208FB004FDD67 /* MenuItemView.swift */; };
 		98F98D4B28F20E12004FDD67 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F98D4A28F20E12004FDD67 /* PickerView.swift */; };
 		98F98D4D28F21948004FDD67 /* InputFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F98D4C28F21948004FDD67 /* InputFields.swift */; };
 		98F98D4F28F22CD4004FDD67 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F98D4E28F22CD4004FDD67 /* InfoView.swift */; };
@@ -34,8 +36,9 @@
 		985CCB2B2858F20B004CF6D6 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pacifico-Regular.ttf"; path = "../../../businessCard/businessCard/Fonts/Pacifico-Regular.ttf"; sourceTree = "<group>"; };
 		985CCB2F2858F25D004CF6D6 /* Business-Card-Builder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Business-Card-Builder-Info.plist"; sourceTree = SOURCE_ROOT; };
 		985CCB3328591B19004CF6D6 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
-		9873EBBA28F68DC800A54B19 /* Business Card Builder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Business Card Builder.entitlements"; sourceTree = "<group>"; };
+		985CCB362859D7C8004CF6D6 /* NavModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavModifier.swift; sourceTree = "<group>"; };
 		98F98D4628F2089B004FDD67 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		98F98D4828F208FB004FDD67 /* MenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
 		98F98D4A28F20E12004FDD67 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 		98F98D4C28F21948004FDD67 /* InputFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputFields.swift; sourceTree = "<group>"; };
 		98F98D4E28F22CD4004FDD67 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
@@ -100,8 +103,10 @@
 				985CCB252858C3A0004CF6D6 /* CardCreatorView.swift */,
 				98F98D4C28F21948004FDD67 /* InputFields.swift */,
 				985CCB272858F079004CF6D6 /* GeneratedTemplateView.swift */,
+				985CCB3328591B19004CF6D6 /* ImagePicker.swift */,
 				98F98D4628F2089B004FDD67 /* HomeView.swift */,
 				98F98D4A28F20E12004FDD67 /* PickerView.swift */,
+				98F98D4828F208FB004FDD67 /* MenuItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -200,7 +205,9 @@
 				98F98D4F28F22CD4004FDD67 /* InfoView.swift in Sources */,
 				985CCB3428591B19004CF6D6 /* ImagePicker.swift in Sources */,
 				985CCB282858F079004CF6D6 /* GeneratedTemplateView.swift in Sources */,
+				985CCB372859D7C8004CF6D6 /* NavModifier.swift in Sources */,
 				98F98D4728F2089B004FDD67 /* HomeView.swift in Sources */,
+				98F98D4928F208FB004FDD67 /* MenuItemView.swift in Sources */,
 				98F98D4B28F20E12004FDD67 /* PickerView.swift in Sources */,
 				985CCB242858BC7F004CF6D6 /* TemplateView.swift in Sources */,
 			);

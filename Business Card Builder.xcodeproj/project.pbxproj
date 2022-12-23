@@ -15,8 +15,11 @@
 		985CCB262858C3A0004CF6D6 /* CardCreatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985CCB252858C3A0004CF6D6 /* CardCreatorView.swift */; };
 		985CCB282858F079004CF6D6 /* GeneratedTemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985CCB272858F079004CF6D6 /* GeneratedTemplateView.swift */; };
 		985CCB2C2858F20B004CF6D6 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 985CCB2B2858F20B004CF6D6 /* Pacifico-Regular.ttf */; };
-		985CCB3428591B19004CF6D6 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985CCB3328591B19004CF6D6 /* ImagePicker.swift */; };
-		985CCB372859D7C8004CF6D6 /* NavModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985CCB362859D7C8004CF6D6 /* NavModifier.swift */; };
+		98CD3E102955A59400CCA410 /* BusinessCardBuilder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 98CD3E0E2955A59400CCA410 /* BusinessCardBuilder.xcdatamodeld */; };
+		98CD3E132955A63800CCA410 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CD3E122955A63800CCA410 /* DataController.swift */; };
+		98CD3E152955B2BF00CCA410 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CD3E142955B2BF00CCA410 /* ImagePicker.swift */; };
+		98CD3E172955B42F00CCA410 /* NavModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CD3E162955B42F00CCA410 /* NavModifier.swift */; };
+		98CD3E212955BD9900CCA410 /* ColorExtraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CD3E202955BD9900CCA410 /* ColorExtraction.swift */; };
 		98F98D4728F2089B004FDD67 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F98D4628F2089B004FDD67 /* HomeView.swift */; };
 		98F98D4928F208FB004FDD67 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F98D4828F208FB004FDD67 /* MenuItemView.swift */; };
 		98F98D4B28F20E12004FDD67 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F98D4A28F20E12004FDD67 /* PickerView.swift */; };
@@ -35,8 +38,11 @@
 		985CCB272858F079004CF6D6 /* GeneratedTemplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratedTemplateView.swift; sourceTree = "<group>"; };
 		985CCB2B2858F20B004CF6D6 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pacifico-Regular.ttf"; path = "../../../businessCard/businessCard/Fonts/Pacifico-Regular.ttf"; sourceTree = "<group>"; };
 		985CCB2F2858F25D004CF6D6 /* Business-Card-Builder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Business-Card-Builder-Info.plist"; sourceTree = SOURCE_ROOT; };
-		985CCB3328591B19004CF6D6 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
-		985CCB362859D7C8004CF6D6 /* NavModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavModifier.swift; sourceTree = "<group>"; };
+		98CD3E0F2955A59400CCA410 /* BusinessCardBuilder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BusinessCardBuilder.xcdatamodel; sourceTree = "<group>"; };
+		98CD3E122955A63800CCA410 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		98CD3E142955B2BF00CCA410 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		98CD3E162955B42F00CCA410 /* NavModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavModifier.swift; sourceTree = "<group>"; };
+		98CD3E202955BD9900CCA410 /* ColorExtraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtraction.swift; sourceTree = "<group>"; };
 		98F98D4628F2089B004FDD67 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		98F98D4828F208FB004FDD67 /* MenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
 		98F98D4A28F20E12004FDD67 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
@@ -58,10 +64,10 @@
 		985CCB082858B144004CF6D6 = {
 			isa = PBXGroup;
 			children = (
-				985CCB352859D7AB004CF6D6 /* Models */,
 				985CCB292858F1DA004CF6D6 /* Fonts */,
 				985CCB132858B145004CF6D6 /* Business Card Builder */,
 				985CCB122858B145004CF6D6 /* Products */,
+				98CD3E0D2955A3AE00CCA410 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,9 +82,9 @@
 		985CCB132858B145004CF6D6 /* Business Card Builder */ = {
 			isa = PBXGroup;
 			children = (
-				9873EBBA28F68DC800A54B19 /* Business Card Builder.entitlements */,
 				985CCB2F2858F25D004CF6D6 /* Business-Card-Builder-Info.plist */,
 				985CCB142858B145004CF6D6 /* Business_Card_BuilderApp.swift */,
+				985CCB352859D7AB004CF6D6 /* Models */,
 				985CCB222858BC61004CF6D6 /* Views */,
 				985CCB182858B147004CF6D6 /* Assets.xcassets */,
 				985CCB1A2858B147004CF6D6 /* Preview Content */,
@@ -103,10 +109,10 @@
 				985CCB252858C3A0004CF6D6 /* CardCreatorView.swift */,
 				98F98D4C28F21948004FDD67 /* InputFields.swift */,
 				985CCB272858F079004CF6D6 /* GeneratedTemplateView.swift */,
-				985CCB3328591B19004CF6D6 /* ImagePicker.swift */,
 				98F98D4628F2089B004FDD67 /* HomeView.swift */,
 				98F98D4A28F20E12004FDD67 /* PickerView.swift */,
 				98F98D4828F208FB004FDD67 /* MenuItemView.swift */,
+				98CD3E142955B2BF00CCA410 /* ImagePicker.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -122,9 +128,19 @@
 		985CCB352859D7AB004CF6D6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				985CCB3328591B19004CF6D6 /* ImagePicker.swift */,
+				98CD3E0E2955A59400CCA410 /* BusinessCardBuilder.xcdatamodeld */,
+				98CD3E122955A63800CCA410 /* DataController.swift */,
+				98CD3E202955BD9900CCA410 /* ColorExtraction.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		98CD3E0D2955A3AE00CCA410 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				98CD3E162955B42F00CCA410 /* NavModifier.swift */,
+			);
+			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,15 +216,18 @@
 			files = (
 				985CCB172858B145004CF6D6 /* ContentView.swift in Sources */,
 				985CCB262858C3A0004CF6D6 /* CardCreatorView.swift in Sources */,
+				98CD3E212955BD9900CCA410 /* ColorExtraction.swift in Sources */,
 				98F98D4D28F21948004FDD67 /* InputFields.swift in Sources */,
+				98CD3E152955B2BF00CCA410 /* ImagePicker.swift in Sources */,
 				985CCB152858B145004CF6D6 /* Business_Card_BuilderApp.swift in Sources */,
 				98F98D4F28F22CD4004FDD67 /* InfoView.swift in Sources */,
-				985CCB3428591B19004CF6D6 /* ImagePicker.swift in Sources */,
+				98CD3E102955A59400CCA410 /* BusinessCardBuilder.xcdatamodeld in Sources */,
+				98CD3E132955A63800CCA410 /* DataController.swift in Sources */,
 				985CCB282858F079004CF6D6 /* GeneratedTemplateView.swift in Sources */,
-				985CCB372859D7C8004CF6D6 /* NavModifier.swift in Sources */,
 				98F98D4728F2089B004FDD67 /* HomeView.swift in Sources */,
 				98F98D4928F208FB004FDD67 /* MenuItemView.swift in Sources */,
 				98F98D4B28F20E12004FDD67 /* PickerView.swift in Sources */,
+				98CD3E172955B42F00CCA410 /* NavModifier.swift in Sources */,
 				985CCB242858BC7F004CF6D6 /* TemplateView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +439,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		98CD3E0E2955A59400CCA410 /* BusinessCardBuilder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				98CD3E0F2955A59400CCA410 /* BusinessCardBuilder.xcdatamodel */,
+			);
+			currentVersion = 98CD3E0F2955A59400CCA410 /* BusinessCardBuilder.xcdatamodel */;
+			path = BusinessCardBuilder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 985CCB092858B144004CF6D6 /* Project object */;
 }

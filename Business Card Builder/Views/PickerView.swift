@@ -19,6 +19,7 @@ struct PickerView: View {
             Text("Business Card Builder")
                 .font(.title)
                 .fontWeight(.bold)
+                .background(Color.blue)
                 .padding(.top)
             
             Picker("Selection", selection: $selection) {

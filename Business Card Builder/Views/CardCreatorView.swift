@@ -66,7 +66,9 @@ struct CardCreatorView: View {
                 .padding(.all)
             
             Button {
-                generateCard.toggle()
+                print(txtColor)
+                print(bgColor)
+//                generateCard.toggle()
             } label: {
                 Text("Create Template")
                     .fontWeight(.bold)
@@ -76,7 +78,7 @@ struct CardCreatorView: View {
             }.padding(.top)
         }
         .fullScreenCover(isPresented: $generateCard) {
-            GeneratedTemplateView(img: image ?? UIImage(), name: $name, position: $position, number: $number, email: $email, bgColor: $bgColor, txtColor: $txtColor)
+            GeneratedTemplateView(img: image ?? UIImage(), name: name, position: position, number: number, email: email, bgColor: bgColor, txtColor: txtColor)
         }
     }
 }

@@ -8,16 +8,17 @@
 import SwiftUI
 
 struct GeneratedTemplateView: View {
+    @Environment(\.managedObjectContext) var moc
+    @Environment(\.dismiss) var dismiss
     
-    @Environment(\.presentationMode) var presentationMode
-    @State var img: UIImage
-    @Binding var name: String
-    @Binding var position: String
-    @Binding var number: String
-    @Binding var email: String
-    @Binding var bgColor: Color
-    @Binding var txtColor: Color
-    @State var btnOpacity: Double = 1
+    var img: UIImage
+    var name: String
+    var position: String
+    var number: String
+    var email: String
+    var bgColor: Color
+    var txtColor: Color
+    var btnOpacity = 1.0
     
     var body: some View {
         ZStack {
@@ -26,7 +27,7 @@ struct GeneratedTemplateView: View {
             VStack{
                 HStack{
                     Button {
-                        presentationMode.wrappedValue.dismiss()
+                        dismiss()
                     } label: {
                         Image(systemName: "x.circle.fill")
                             .font(.system(size: 25))
@@ -38,7 +39,19 @@ struct GeneratedTemplateView: View {
                     Spacer()
                     
                     Button {
+                        let card = Card(context: moc)
+                        card.img = "img"
+                        card.name = name
+                        card.position = position
+                        card.number = number
+                        card.email = email
+                        card.bgColorR = Double(bgColor.components.red)
+                        card.bgColorG = Double(bgColor.components.green)
+                        card.bgColorB = Double(bgColor.components.blue)
+                        card.bgColorA = Double(bgColor.components.alpha)
+                        card.txtColor = "txtColor"
                         
+                        try? moc.save()
                     } label: {
                         Text("Save")
                             .font(.system(size: 20))
@@ -84,6 +97,6 @@ struct GeneratedTemplateView: View {
 
 struct GeneratedTemplateView_Previews: PreviewProvider {
     static var previews: some View {
-        GeneratedTemplateView(img: UIImage(imageLiteralResourceName: "me"), name: .constant("Me"), position: .constant("Me"), number: .constant("Me"), email: .constant("Me"), bgColor: .constant(Color(red: 0.15, green: 0.68, blue: 0.38)), txtColor: .constant(Color.white))
+        GeneratedTemplateView(img: UIImage(imageLiteralResourceName: "me"), name: "Me", position: "Me", number: "Me", email: "Me", bgColor: Color(red: 0.15, green: 0.68, blue: 0.38), txtColor: Color.white)
     }
 }

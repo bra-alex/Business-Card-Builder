@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct Business_Card_BuilderApp: App {
+    @StateObject var dataController = DataController()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(\.managedObjectContext, dataController.container.viewContext)
         }
     }
 }

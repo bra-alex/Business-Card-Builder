@@ -39,17 +39,26 @@ struct GeneratedTemplateView: View {
                     Spacer()
                     
                     Button {
+                        let bg = BgColors(context: moc)
+                        bg.red = Double(bgColor.components.red)
+                        bg.blue = Double(bgColor.components.blue)
+                        bg.green = Double(bgColor.components.green)
+                        bg.alpha = Double(bgColor.components.alpha)
+                        
+                        let txt = TxtColors(context: moc)
+                        txt.red = Double(txtColor.components.red)
+                        txt.blue = Double(txtColor.components.blue)
+                        txt.green = Double(txtColor.components.green)
+                        txt.alpha = Double(txtColor.components.alpha)
+                        
                         let card = Card(context: moc)
                         card.img = "img"
                         card.name = name
                         card.position = position
                         card.number = number
                         card.email = email
-                        card.bgColorR = Double(bgColor.components.red)
-                        card.bgColorG = Double(bgColor.components.green)
-                        card.bgColorB = Double(bgColor.components.blue)
-                        card.bgColorA = Double(bgColor.components.alpha)
-                        card.txtColor = "txtColor"
+                        card.bgColors = [bg]
+                        card.txtColors = [txt]
                         
                         try? moc.save()
                     } label: {

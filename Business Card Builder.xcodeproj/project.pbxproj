@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		985CCB152858B145004CF6D6 /* Business_Card_BuilderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985CCB142858B145004CF6D6 /* Business_Card_BuilderApp.swift */; };
-		985CCB172858B145004CF6D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985CCB162858B145004CF6D6 /* ContentView.swift */; };
 		985CCB192858B147004CF6D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 985CCB182858B147004CF6D6 /* Assets.xcassets */; };
 		985CCB1C2858B147004CF6D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 985CCB1B2858B147004CF6D6 /* Preview Assets.xcassets */; };
 		985CCB242858BC7F004CF6D6 /* TemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985CCB232858BC7F004CF6D6 /* TemplateView.swift */; };
 		985CCB262858C3A0004CF6D6 /* CardCreatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985CCB252858C3A0004CF6D6 /* CardCreatorView.swift */; };
 		985CCB282858F079004CF6D6 /* GeneratedTemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985CCB272858F079004CF6D6 /* GeneratedTemplateView.swift */; };
 		985CCB2C2858F20B004CF6D6 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 985CCB2B2858F20B004CF6D6 /* Pacifico-Regular.ttf */; };
-		98CD3E102955A59400CCA410 /* BusinessCardBuilder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 98CD3E0E2955A59400CCA410 /* BusinessCardBuilder.xcdatamodeld */; };
 		98CD3E132955A63800CCA410 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CD3E122955A63800CCA410 /* DataController.swift */; };
 		98CD3E152955B2BF00CCA410 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CD3E142955B2BF00CCA410 /* ImagePicker.swift */; };
 		98CD3E172955B42F00CCA410 /* NavModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CD3E162955B42F00CCA410 /* NavModifier.swift */; };
 		98CD3E212955BD9900CCA410 /* ColorExtraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CD3E202955BD9900CCA410 /* ColorExtraction.swift */; };
+		98CD3EAC2955CBA300CCA410 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CD3EAB2955CBA300CCA410 /* ContentView.swift */; };
+		98CD3EC12956DCE400CCA410 /* BusinessCardBuilderModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 98CD3EBF2956DCE400CCA410 /* BusinessCardBuilderModel.xcdatamodeld */; };
 		98F98D4728F2089B004FDD67 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F98D4628F2089B004FDD67 /* HomeView.swift */; };
 		98F98D4928F208FB004FDD67 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F98D4828F208FB004FDD67 /* MenuItemView.swift */; };
 		98F98D4B28F20E12004FDD67 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F98D4A28F20E12004FDD67 /* PickerView.swift */; };
@@ -30,7 +30,6 @@
 /* Begin PBXFileReference section */
 		985CCB112858B145004CF6D6 /* Business Card Builder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Business Card Builder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		985CCB142858B145004CF6D6 /* Business_Card_BuilderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business_Card_BuilderApp.swift; sourceTree = "<group>"; };
-		985CCB162858B145004CF6D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		985CCB182858B147004CF6D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		985CCB1B2858B147004CF6D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		985CCB232858BC7F004CF6D6 /* TemplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateView.swift; sourceTree = "<group>"; };
@@ -38,11 +37,12 @@
 		985CCB272858F079004CF6D6 /* GeneratedTemplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratedTemplateView.swift; sourceTree = "<group>"; };
 		985CCB2B2858F20B004CF6D6 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pacifico-Regular.ttf"; path = "../../../businessCard/businessCard/Fonts/Pacifico-Regular.ttf"; sourceTree = "<group>"; };
 		985CCB2F2858F25D004CF6D6 /* Business-Card-Builder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Business-Card-Builder-Info.plist"; sourceTree = SOURCE_ROOT; };
-		98CD3E0F2955A59400CCA410 /* BusinessCardBuilder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BusinessCardBuilder.xcdatamodel; sourceTree = "<group>"; };
 		98CD3E122955A63800CCA410 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		98CD3E142955B2BF00CCA410 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		98CD3E162955B42F00CCA410 /* NavModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavModifier.swift; sourceTree = "<group>"; };
 		98CD3E202955BD9900CCA410 /* ColorExtraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtraction.swift; sourceTree = "<group>"; };
+		98CD3EAB2955CBA300CCA410 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		98CD3EC02956DCE400CCA410 /* BusinessCardBuilderModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BusinessCardBuilderModel.xcdatamodel; sourceTree = "<group>"; };
 		98F98D4628F2089B004FDD67 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		98F98D4828F208FB004FDD67 /* MenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
 		98F98D4A28F20E12004FDD67 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
@@ -104,7 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				98F98D4E28F22CD4004FDD67 /* InfoView.swift */,
-				985CCB162858B145004CF6D6 /* ContentView.swift */,
+				98CD3EAB2955CBA300CCA410 /* ContentView.swift */,
 				985CCB232858BC7F004CF6D6 /* TemplateView.swift */,
 				985CCB252858C3A0004CF6D6 /* CardCreatorView.swift */,
 				98F98D4C28F21948004FDD67 /* InputFields.swift */,
@@ -128,7 +128,7 @@
 		985CCB352859D7AB004CF6D6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				98CD3E0E2955A59400CCA410 /* BusinessCardBuilder.xcdatamodeld */,
+				98CD3EBF2956DCE400CCA410 /* BusinessCardBuilderModel.xcdatamodeld */,
 				98CD3E122955A63800CCA410 /* DataController.swift */,
 				98CD3E202955BD9900CCA410 /* ColorExtraction.swift */,
 			);
@@ -214,14 +214,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				985CCB172858B145004CF6D6 /* ContentView.swift in Sources */,
 				985CCB262858C3A0004CF6D6 /* CardCreatorView.swift in Sources */,
+				98CD3EAC2955CBA300CCA410 /* ContentView.swift in Sources */,
 				98CD3E212955BD9900CCA410 /* ColorExtraction.swift in Sources */,
 				98F98D4D28F21948004FDD67 /* InputFields.swift in Sources */,
 				98CD3E152955B2BF00CCA410 /* ImagePicker.swift in Sources */,
+				98CD3EC12956DCE400CCA410 /* BusinessCardBuilderModel.xcdatamodeld in Sources */,
 				985CCB152858B145004CF6D6 /* Business_Card_BuilderApp.swift in Sources */,
 				98F98D4F28F22CD4004FDD67 /* InfoView.swift in Sources */,
-				98CD3E102955A59400CCA410 /* BusinessCardBuilder.xcdatamodeld in Sources */,
 				98CD3E132955A63800CCA410 /* DataController.swift in Sources */,
 				985CCB282858F079004CF6D6 /* GeneratedTemplateView.swift in Sources */,
 				98F98D4728F2089B004FDD67 /* HomeView.swift in Sources */,
@@ -441,13 +441,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		98CD3E0E2955A59400CCA410 /* BusinessCardBuilder.xcdatamodeld */ = {
+		98CD3EBF2956DCE400CCA410 /* BusinessCardBuilderModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				98CD3E0F2955A59400CCA410 /* BusinessCardBuilder.xcdatamodel */,
+				98CD3EC02956DCE400CCA410 /* BusinessCardBuilderModel.xcdatamodel */,
 			);
-			currentVersion = 98CD3E0F2955A59400CCA410 /* BusinessCardBuilder.xcdatamodel */;
-			path = BusinessCardBuilder.xcdatamodeld;
+			currentVersion = 98CD3EC02956DCE400CCA410 /* BusinessCardBuilderModel.xcdatamodel */;
+			path = BusinessCardBuilderModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
